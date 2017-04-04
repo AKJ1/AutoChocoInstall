@@ -1,0 +1,31 @@
+{
+  "packages": [
+    "f.lux",
+    "Vivaldi",
+    "chrome",
+    "wox",
+    "cccp",
+    "foobar2000",
+    "irfanview",
+
+    "skype",
+    "discord",
+
+    "blender",
+    "obs",
+    "audacity",
+
+    "git",
+	"SublimeText3",
+    "SublimeText3.PackageControl",
+    "SourceTree",
+    "authotkey",
+    "cygwin",
+    "jdk8",
+    "android-sdk",
+    "unity",
+    "unity-android",
+    "VisualStudio2015Community",
+    "anaconda3"
+  ]
+}
