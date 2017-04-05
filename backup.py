@@ -9,11 +9,13 @@ path = os.environ['path']
 local_app_data = os.environ['localappdata']
 roaming_app_data = os.environ['appdata']
 android_path = '\\Android\\android-sdk'
+documnents_path = os.environ['userprofile'] + '\\' + 'Documents'
 cwd = os.getcwd()
 
 dirMap = {}
 dirMap['LocalAppData'] = local_app_data
 dirMap['RoamingAppData'] = roaming_app_data
+dirMap['Documents'] = documnents_path
 
 def update_path_with_android_sdk():
     if local_app_data+android_path not in path :
